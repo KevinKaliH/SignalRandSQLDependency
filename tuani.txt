@@ -1,0 +1,2 @@
+alter database [<dbname>] set enable_broker with rollback immediate;
+SELECT is_broker_enabled FROM sys.databases WHERE name = 'Database_name';
